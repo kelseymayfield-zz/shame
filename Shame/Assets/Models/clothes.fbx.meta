@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 22fc184a073238643ab8f411136b6b46
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group1
+    100004: group10
+    100006: group11
+    100008: group12
+    100010: group13
+    100012: group14
+    100014: group15
+    100016: group16
+    100018: group17
+    100020: group18
+    100022: group19
+    100024: group2
+    100026: group20
+    100028: group21
+    100030: group22
+    100032: group23
+    100034: group24
+    100036: group25
+    100038: group26
+    100040: group27
+    100042: group28
+    100044: group29
+    100046: group3
+    100048: group4
+    100050: group5
+    100052: group6
+    100054: group7
+    100056: group8
+    100058: group9
+    100060: pCube1
+    100062: pCube1 1
+    100064: pCube1 2
+    100066: pCube1 3
+    100068: pCube1 4
+    100070: pCube1 5
+    100072: pCube1 6
+    100074: pCube10
+    100076: pCube11
+    100078: pCube12
+    100080: pCube13
+    100082: pCube14
+    100084: pCube15
+    100086: pCube16
+    100088: pCube17
+    100090: pCube18
+    100092: pCube19
+    100094: pCube2
+    100096: pCube20
+    100098: pCube21
+    100100: pCube3
+    100102: pCube4
+    100104: pCube5
+    100106: pCube5 1
+    100108: pCube5 2
+    100110: pCube5 3
+    100112: pCube5 4
+    100114: pCube5 5
+    100116: pCube7
+    100118: pCube7 1
+    100120: pCube7 2
+    100122: pCube7 3
+    100124: pCube7 4
+    100126: pCube7 5
+    100128: pCube9
+    100130: pCube9 1
+    100132: pCube9 2
+    100134: pCube9 3
+    100136: pCube9 4
+    100138: pCube9 5
+    100140: pCylinder1
+    100142: polySurface2
+    100144: polySurface2 1
+    100146: polySurface2 2
+    100148: polySurface2 3
+    100150: polySurface2 4
+    100152: polySurface2 5
+    100154: pSphere1
+    100156: shirt1
+    100158: shirt2
+    100160: shirt3
+    100162: shirt4
+    100164: shirt5
+    100166: shirt6
+    100168: shirt7
+    100170: transform1
+    100172: transform2
+    100174: transform3
+    100176: transform4
+    400000: //RootNode
+    400002: group1
+    400004: group10
+    400006: group11
+    400008: group12
+    400010: group13
+    400012: group14
+    400014: group15
+    400016: group16
+    400018: group17
+    400020: group18
+    400022: group19
+    400024: group2
+    400026: group20
+    400028: group21
+    400030: group22
+    400032: group23
+    400034: group24
+    400036: group25
+    400038: group26
+    400040: group27
+    400042: group28
+    400044: group29
+    400046: group3
+    400048: group4
+    400050: group5
+    400052: group6
+    400054: group7
+    400056: group8
+    400058: group9
+    400060: pCube1
+    400062: pCube1 1
+    400064: pCube1 2
+    400066: pCube1 3
+    400068: pCube1 4
+    400070: pCube1 5
+    400072: pCube1 6
+    400074: pCube10
+    400076: pCube11
+    400078: pCube12
+    400080: pCube13
+    400082: pCube14
+    400084: pCube15
+    400086: pCube16
+    400088: pCube17
+    400090: pCube18
+    400092: pCube19
+    400094: pCube2
+    400096: pCube20
+    400098: pCube21
+    400100: pCube3
+    400102: pCube4
+    400104: pCube5
+    400106: pCube5 1
+    400108: pCube5 2
+    400110: pCube5 3
+    400112: pCube5 4
+    400114: pCube5 5
+    400116: pCube7
+    400118: pCube7 1
+    400120: pCube7 2
+    400122: pCube7 3
+    400124: pCube7 4
+    400126: pCube7 5
+    400128: pCube9
+    400130: pCube9 1
+    400132: pCube9 2
+    400134: pCube9 3
+    400136: pCube9 4
+    400138: pCube9 5
+    400140: pCylinder1
+    400142: polySurface2
+    400144: polySurface2 1
+    400146: polySurface2 2
+    400148: polySurface2 3
+    400150: polySurface2 4
+    400152: polySurface2 5
+    400154: pSphere1
+    400156: shirt1
+    400158: shirt2
+    400160: shirt3
+    400162: shirt4
+    400164: shirt5
+    400166: shirt6
+    400168: shirt7
+    400170: transform1
+    400172: transform2
+    400174: transform3
+    400176: transform4
+    2300000: pCube1
+    2300002: pCube1 1
+    2300004: pCube1 2
+    2300006: pCube1 3
+    2300008: pCube1 4
+    2300010: pCube1 5
+    2300012: pCube1 6
+    2300014: pCube10
+    2300016: pCube11
+    2300018: pCube12
+    2300020: pCube13
+    2300022: pCube14
+    2300024: pCube15
+    2300026: pCube16
+    2300028: pCube17
+    2300030: pCube18
+    2300032: pCube19
+    2300034: pCube20
+    2300036: pCube21
+    2300038: pCube5
+    2300040: pCube5 1
+    2300042: pCube5 2
+    2300044: pCube5 3
+    2300046: pCube5 4
+    2300048: pCube5 5
+    2300050: pCube7
+    2300052: pCube7 1
+    2300054: pCube7 2
+    2300056: pCube7 3
+    2300058: pCube7 4
+    2300060: pCube7 5
+    2300062: pCube9
+    2300064: pCube9 1
+    2300066: pCube9 2
+    2300068: pCube9 3
+    2300070: pCube9 4
+    2300072: pCube9 5
+    2300074: pCylinder1
+    2300076: polySurface2
+    2300078: polySurface2 1
+    2300080: polySurface2 2
+    2300082: polySurface2 3
+    2300084: polySurface2 4
+    2300086: polySurface2 5
+    2300088: shirt1
+    2300090: shirt2
+    2300092: shirt3
+    2300094: shirt4
+    2300096: shirt5
+    2300098: shirt6
+    2300100: shirt7
+    3300000: pCube1
+    3300002: pCube1 1
+    3300004: pCube1 2
+    3300006: pCube1 3
+    3300008: pCube1 4
+    3300010: pCube1 5
+    3300012: pCube1 6
+    3300014: pCube10
+    3300016: pCube11
+    3300018: pCube12
+    3300020: pCube13
+    3300022: pCube14
+    3300024: pCube15
+    3300026: pCube16
+    3300028: pCube17
+    3300030: pCube18
+    3300032: pCube19
+    3300034: pCube20
+    3300036: pCube21
+    3300038: pCube5
+    3300040: pCube5 1
+    3300042: pCube5 2
+    3300044: pCube5 3
+    3300046: pCube5 4
+    3300048: pCube5 5
+    3300050: pCube7
+    3300052: pCube7 1
+    3300054: pCube7 2
+    3300056: pCube7 3
+    3300058: pCube7 4
+    3300060: pCube7 5
+    3300062: pCube9
+    3300064: pCube9 1
+    3300066: pCube9 2
+    3300068: pCube9 3
+    3300070: pCube9 4
+    3300072: pCube9 5
+    3300074: pCylinder1
+    3300076: polySurface2
+    3300078: polySurface2 1
+    3300080: polySurface2 2
+    3300082: polySurface2 3
+    3300084: polySurface2 4
+    3300086: polySurface2 5
+    3300088: shirt1
+    3300090: shirt2
+    3300092: shirt3
+    3300094: shirt4
+    3300096: shirt5
+    3300098: shirt6
+    3300100: shirt7
+    4300000: pCylinder1
+    4300002: shirt4
+    4300004: pCube1
+    4300006: shirt5
+    4300008: pCube1
+    4300010: shirt2
+    4300012: pCube1
+    4300014: shirt3
+    4300016: pCube1
+    4300018: shirt1
+    4300020: pCube1
+    4300022: shirt7
+    4300024: pCube1
+    4300026: shirt6
+    4300028: pCube1
+    4300030: pCube5
+    4300032: polySurface2
+    4300034: pCube7
+    4300036: pCube9
+    4300038: pCube5
+    4300040: polySurface2
+    4300042: pCube7
+    4300044: pCube9
+    4300046: pCube10
+    4300048: pCube11
+    4300050: pCube12
+    4300052: pCube13
+    4300054: pCube5
+    4300056: polySurface2
+    4300058: pCube7
+    4300060: pCube9
+    4300062: pCube14
+    4300064: pCube15
+    4300066: pCube5
+    4300068: polySurface2
+    4300070: pCube7
+    4300072: pCube9
+    4300074: pCube5
+    4300076: polySurface2
+    4300078: pCube7
+    4300080: pCube9
+    4300082: pCube5
+    4300084: polySurface2
+    4300086: pCube7
+    4300088: pCube9
+    4300090: pCube16
+    4300092: pCube17
+    4300094: pCube18
+    4300096: pCube19
+    4300098: pCube20
+    4300100: pCube21
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
