@@ -1,30 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FootStepsOn.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Attacker.cs">
     <Files>
-      <File FileName="Assets/Standard Assets/Scripts/General Scripts/ActivateTrigger.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/OppositeDoor.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/OpenableDoor.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/FootStepsOn.js" Line="14" Column="2" />
+      <File FileName="Assets\Scripts\PlayerHealth.cs" Line="75" Column="28" />
+      <File FileName="Assets\Scripts\OpenableDoor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Attacker.cs" Line="50" Column="7" />
+      <File FileName="Assets\Scripts\HallOfShame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RoomTrigger.cs" Line="23" Column="21" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp-firstpass" expanded="True">
-            <Node name="Standard Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="General Scripts" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-          <Node name="Assembly-UnityScript" expanded="True">
-            <Node name="Scripts" expanded="True">
-              <Node name="FootStepsOn.js" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
