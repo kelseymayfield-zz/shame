@@ -17,7 +17,7 @@ function Start(){
 	initPosition = transform.position;
 	print(transform.position.x);
 //	closedPosition = transform.eulerAngles;
-	openPosition = new Vector3(initPosition.x - openDistance, initPosition.y, initPosition.z);
+	openPosition = new Vector3(initPosition.x, initPosition.y, initPosition.z-openDistance);
 }
 
 //Main function

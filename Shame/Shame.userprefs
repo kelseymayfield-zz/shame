@@ -1,15 +1,22 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KeysInteraction.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\OpenableDrawer.js">
     <Files>
-      <File FileName="Assets/Scripts/KeysInteraction.cs" Line="18" Column="20" />
-      <File FileName="Assets/Scripts/PlayerHealth.cs" Line="111" Column="2" />
-      <File FileName="Assets/Scripts/OpenableDoor.cs" Line="51" Column="1" />
-      <File FileName="Assets/Scripts/Attacker.cs" Line="13" Column="21" />
+      <File FileName="Assets\Scripts\KeysInteraction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OpenableDoor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Attacker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OpenableDrawer.js" Line="20" Column="88" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="Assembly-UnityScript" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="OpenableDrawer.js" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
