@@ -49,9 +49,12 @@
      <Compile Include="Assets\Scripts\Attacker.cs" />
      <Compile Include="Assets\Scripts\GameOverManager.cs" />
      <Compile Include="Assets\Scripts\HallOfShame.cs" />
+     <Compile Include="Assets\Scripts\HoodieInteraction.cs" />
+     <Compile Include="Assets\Scripts\KeysInteraction.cs" />
      <Compile Include="Assets\Scripts\OpenableDoor.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\RoomTrigger.cs" />
+     <Compile Include="Assets\Scripts\SceneTransition.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
