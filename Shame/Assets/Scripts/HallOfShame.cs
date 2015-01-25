@@ -12,16 +12,6 @@ public class HallOfShame : MonoBehaviour {
 		playerHealth = player.GetComponent <PlayerHealth> ();
 	}
 	
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-	
 	void OnTriggerStay (Collider other)
 	{
 		if(other.gameObject == player)
