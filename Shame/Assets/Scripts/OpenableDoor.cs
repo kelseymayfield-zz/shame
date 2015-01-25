@@ -7,6 +7,8 @@ public class OpenableDoor : MonoBehaviour {
 	public float openedAngle = 90;
 	public float doorSwingSmoothingTime = 0.5f;
 	public float doorSwingMaxSpeed = 90;
+	public AudioClip openAudio;
+	public AudioClip closeAudio;
 	
 	private float targetAngle;
 	private float currentAngle;
@@ -41,10 +43,16 @@ public class OpenableDoor : MonoBehaviour {
 	public void ToggleDoor ()
 	{
 		Debug.Log ("Door Toggled");
-		if (targetAngle == openedAngle)
+		if (targetAngle == openedAngle) {
+			audio.clip = closeAudio;
+			audio.Play (55555);	
 			targetAngle = closedAngle;
-		else
+		} else {
+			audio.clip = openAudio;
+			audio.Play ();
 			targetAngle = openedAngle;
+		}
+
 	}
 	
 	void UpdateAngle ()
