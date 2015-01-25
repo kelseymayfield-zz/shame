@@ -1,14 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Temp\ParsedCombinations-Normal-Diffuse.shader">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneTransition.cs">
     <Files>
-      <File FileName="Temp\Compiled-Normal-Diffuse-Win.shader" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerHealth.cs" Line="103" Column="30" />
       <File FileName="Assets\Scripts\OpenableDoor.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Attacker.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\HallOfShame.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\RoomTrigger.cs" Line="1" Column="1" />
-      <File FileName="Temp\ParsedCombinations-Normal-Diffuse.shader" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HoodieInteraction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\KeysInteraction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameOverManager.cs" Line="3" Column="29" />
+      <File FileName="Assets\Scripts\SceneTransition.cs" Line="4" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
