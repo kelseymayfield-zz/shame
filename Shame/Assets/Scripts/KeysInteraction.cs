@@ -4,7 +4,7 @@ using System.Collections;
 public class KeysInteraction : MonoBehaviour {
 	GameObject player;                          // Reference to the player GameObject.
 	PlayerHealth playerHealth;                  // Reference to the player's health.
-	
+	public AudioClip keySound;
 	void Awake ()
 	{
 		// Setting up the references.
@@ -27,6 +27,9 @@ public class KeysInteraction : MonoBehaviour {
 		Debug.Log ("Player enter the keys trigger");
 		if (other.gameObject.tag == "Player") {
 			enter = true;
+			audio.loop = false;
+			audio.clip = keySound;
+			audio.Play ();
 		}
 	}
 	
