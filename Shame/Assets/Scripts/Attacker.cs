@@ -4,6 +4,8 @@ using System.Collections;
 public class Attacker : MonoBehaviour {
 	GameObject player;                          // Reference to the player GameObject.
 	PlayerHealth playerHealth;                  // Reference to the player's health.
+	public OpenableDoor door;
+	bool doorToggled;
 
 	void Awake ()
 	{
@@ -19,7 +21,7 @@ public class Attacker : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	void OnTriggerEnter (Collider other)
@@ -27,11 +29,17 @@ public class Attacker : MonoBehaviour {
 		// If the entering collider is the player...
 		if(other.gameObject == player)
 		{
-			// If the player has health to lose...
-			if(playerHealth.currentHealth > 0)
+			if(!doorToggled)
 			{
-				// ... damage the player.
-				playerHealth.TakeDamage (10);
+				door.ToggleDoor ();
+				doorToggled = true;
+				//player.transform.LookAt(this.transform);
+				// If the player has health to lose...
+				if(playerHealth.currentHealth > 0)
+				{
+					// ... damage the player.
+					playerHealth.TakeDamage (10);
+				}
 			}
 		}
 	}
