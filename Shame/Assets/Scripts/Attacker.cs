@@ -4,6 +4,7 @@ using System.Collections;
 public class Attacker : MonoBehaviour {
 	public OpenableDoor door;
 	public float damage;
+	public string dialog;
 	GameObject player;                          // Reference to the player GameObject.
 	PlayerHealth playerHealth;                  // Reference to the player's health.
 	bool doorToggled;
@@ -18,8 +19,9 @@ public class Attacker : MonoBehaviour {
 		playerHealth = player.GetComponent <PlayerHealth> ();
 		
 		fontStyle = new GUIStyle();
-		fontStyle.fontSize = 32;
+		fontStyle.fontSize = 24;
 		fontStyle.normal.textColor = Color.white;
+		fontStyle.alignment = TextAnchor.MiddleCenter;
 
 	}
 
@@ -54,7 +56,7 @@ public class Attacker : MonoBehaviour {
 	
 	void OnGUI() {
 		if (showText) {
-			GUI.Label (new Rect (Screen.width / 2 - 130, Screen.height/2, 150, 30), "Oh hey~ is you! :3", fontStyle);
+			GUI.Label (new Rect (0, Screen.height-50, Screen.width, 30), dialog, fontStyle);
 		}
 	}
 }
