@@ -5,7 +5,7 @@ public class WinningTransition : MonoBehaviour {
 	GameObject player;                          // Reference to the player GameObject.
 	PlayerHealth playerHealth;                  // Reference to the player's health.
 	public Animator anim;                          // Reference to the animator component.
-	
+	public AudioClip needKeysAudio;
 	void Awake ()
 	{
 		// Setting up the references.
@@ -22,6 +22,11 @@ public class WinningTransition : MonoBehaviour {
 				anim.SetTrigger ("WinGame");
         
         StartCoroutine(transit());
+			}
+			else{
+				audio.clip = needKeysAudio;
+				audio.Play ();
+			
 			}
 		}
 	}

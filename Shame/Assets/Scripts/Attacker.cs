@@ -9,7 +9,9 @@ public class Attacker : MonoBehaviour {
 	PlayerHealth playerHealth;                  // Reference to the player's health.
 	bool doorToggled;
 	bool showText;
-
+	public bool isFemale;
+	public AudioClip femaleAudio;
+	public AudioClip maleAudio;
 	GUIStyle fontStyle;
 
 	void Awake ()
@@ -42,6 +44,17 @@ public class Attacker : MonoBehaviour {
 				{
 					// ... damage the player.
 					playerHealth.TakeDamage (damage);
+					if(isFemale)
+					{
+						audio.clip = femaleAudio;
+						audio.Play ();
+					}
+					else
+					{
+						audio.clip = maleAudio;
+						audio.Play ();
+					}
+
 				}
 			}
 		}

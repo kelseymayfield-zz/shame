@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
 	public bool hasKey = false;
 	public bool hasCloth = false;
 	public float damageMultipler = 2f;
-	//public AudioClip deathClip;                         // The sound effect of the player dying.
+	public AudioClip awakeSound;                         
 	
 	
 	//private Animator anim;                              // Reference to the animator component.
@@ -20,10 +20,14 @@ public class PlayerHealth : MonoBehaviour
 	//private LastPlayerSighting lastPlayerSighting;      // Reference to the LastPlayerSighting script.
 	private float timer;                                // A timer for counting to the reset of the level once the player is dead.
 	private bool playerDead;                            // A bool to show if the player is dead or not.
-	
+	private bool oneTime = true;
 	
 	void Awake ()
-	{
+	{	
+		audio.loop = false;
+		audio.clip = awakeSound;
+		audio.Play (44000);
+		Debug.Log ("Awake");
 		// Setting up the references.
 		//anim = GetComponent<Animator>();
 		//playerMovement = GetComponent<PlayerMovement>();
