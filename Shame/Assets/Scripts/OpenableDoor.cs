@@ -61,7 +61,6 @@ public class OpenableDoor : MonoBehaviour {
 		transform.localRotation = Quaternion.AngleAxis (currentAngle, Vector3.up);
 	}
 
-	
 	void OnTriggerEnter (Collider other) {
 		Debug.Log ("Player enter the door trigger");
 		if (other.gameObject.tag == "Player") {
@@ -78,7 +77,8 @@ public class OpenableDoor : MonoBehaviour {
 	
 	void OnGUI() {
 		if (enter) {
-			GUI.Label (new Rect (Screen.width / 2 - 75, Screen.height - 100, 150, 30), "Press 'F' to open the door");
+			GUI.Label (new Rect (Screen.width / 2 - 75, Screen.height - 100, 150, 50), "Press 'F' to open the door");
+
 		}
 	}
 }
