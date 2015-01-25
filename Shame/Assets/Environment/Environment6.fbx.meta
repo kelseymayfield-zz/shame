@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: af6d7a1a97d08ea4dabf52f744c4a354
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Ceiling_Bot
+    100002: Ceiling_Top
+    100004: Environment.003
+    100006: Environment.004
+    100008: Environment.006
+    100010: Environment.007
+    100012: //RootNode
+    100014: Floor_Bot
+    100016: Floor_Top
+    100018: Stairs.000
+    100020: Stairs.001
+    100022: Wall
+    100024: Wall_Top
+    400000: Ceiling_Bot
+    400002: Ceiling_Top
+    400004: Environment.003
+    400006: Environment.004
+    400008: Environment.006
+    400010: Environment.007
+    400012: //RootNode
+    400014: Floor_Bot
+    400016: Floor_Top
+    400018: Stairs.000
+    400020: Stairs.001
+    400022: Wall
+    400024: Wall_Top
+    2300000: Ceiling_Bot
+    2300002: Ceiling_Top
+    2300004: Environment.003
+    2300006: Environment.004
+    2300008: Environment.006
+    2300010: Environment.007
+    2300012: Floor_Bot
+    2300014: Floor_Top
+    2300016: Stairs.000
+    2300018: Stairs.001
+    2300020: Wall
+    2300022: Wall_Top
+    3300000: Ceiling_Bot
+    3300002: Ceiling_Top
+    3300004: Environment.003
+    3300006: Environment.004
+    3300008: Environment.006
+    3300010: Environment.007
+    3300012: Floor_Bot
+    3300014: Floor_Top
+    3300016: Stairs.000
+    3300018: Stairs.001
+    3300020: Wall
+    3300022: Wall_Top
+    4300000: Floor_Top
+    4300002: Environment.007
+    4300004: Environment.006
+    4300006: Wall_Top
+    4300008: Environment.003
+    4300010: Ceiling_Bot
+    4300012: Floor_Bot
+    4300014: Environment.004
+    4300016: Wall
+    4300018: Stairs.000
+    4300020: Stairs.001
+    4300022: Ceiling_Top
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
