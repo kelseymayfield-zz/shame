@@ -7,6 +7,9 @@ public class PlayerHealth : MonoBehaviour
 	public float currentHealth = 100f;                         // How much health the player has left.
 	public float resetAfterDeathTime = 5f;              // How much time from the player dying to the level reseting.
 	public Slider healthSlider;
+	public bool hasKey = false;
+	public bool hasCloth = false;
+	public float damageMultipler = 2f;
 	//public AudioClip deathClip;                         // The sound effect of the player dying.
 	
 	
@@ -97,7 +100,10 @@ public class PlayerHealth : MonoBehaviour
 	
 	public void TakeDamage (float amount)
 	{
+		if (!hasCloth && amount > 0)
+			amount *= damageMultipler;
 		Debug.Log ("Took " + amount + " damage");
+
 		// Decrement the player's health by amount.
 		currentHealth -= amount;
 		healthSlider.value = currentHealth;

@@ -77,7 +77,12 @@ public class OpenableDoor : MonoBehaviour {
 	
 	void OnGUI() {
 		if (enter) {
-			GUI.Label (new Rect (Screen.width / 2 - 75, Screen.height - 100, 150, 50), "Press 'F' to open the door");
+			string message;
+			if (targetAngle == closedAngle)
+				message = "Press 'F' to open the door";
+			else
+				message = "Press 'F' to close the door";
+			GUI.Label (new Rect (Screen.width / 2 - 75, Screen.height - 100, 200, 50), message);
 
 		}
 	}
